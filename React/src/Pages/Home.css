@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input#organizationNoTextBox {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.enterYourOrganizationNo{
+  /* margin-left: -17%;  */
+  margin-bottom: 5px;
+}
+
+button#submit {
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+#organizationNo>.p-card-body>.p-card-title{
+  /* color: red; */
+  font-size: 15px;
+  text-decoration: overline;
+  text-align: center;
+}
+#organizationNo>.p-card-body>.p-card-content{
+  padding: 0;
+}
+
+.organizationDetails{
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: -61px;
+}
+
+p#organizationNo {
+  font-size: 27px;
+  text-align: center;
+}
+.revenueGraphTitle{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.noDataFound{
+  margin-top: 13%;
+  text-align: center;
+}
+
+.addOrganization{
+  float: right;
+}
+
+.p-card-body:hover {
+  /* color: red; */
+  z-index: 1;
+  transform: scale(1);
+  box-shadow: 0 8px 50px rgb(0 0 0 / 20%);
+}
